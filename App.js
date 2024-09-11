@@ -793,17 +793,19 @@ const RestaruantCard= () => {
 
     return(
         <div className="card">
-            <img src={burgerking.image}/>
-            <h2>{burgerking.name}</h2>
-            <h3>{burgerking.cosins.join(",")}</h3>
-            <h4>{burgerking.rating} stars</h4>
+          
+            <img src={"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"
+              +restrautList[1].data?.cloudinaryImageId}/>
+            <h2>{restrautList[0].data?.name}</h2>
+            <h3>{restrautList[0].data?.cuisines.join(",")}</h3>
+            <h4>{restrautList[0].data?.lastMileTravelString} minutes</h4>
         </div>
     );
 };
 
 const Body = () => {
     return ( 
-    <div class = "restaurant-list">
+    <div className = "restaurant-list">
         <RestaruantCard />
         <RestaruantCard />
         <RestaruantCard />
