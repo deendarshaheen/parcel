@@ -1,4 +1,4 @@
- const Title = () => (
+const Title = () => (
     <a href="/">  
     <img 
      className="logo"
@@ -9,9 +9,12 @@
   );
 
   const Header = () => {
+    
+
     return (
         <div className="header">
             <Title />
+            
             <div className="nav-items">
                 <ul>
                     <li>Home</li>

@@ -257,7 +257,7 @@ export const IMG_CDN_URL =
         area: "Majra",
         totalRatingsString: "50+ ratings",
         cloudinaryImageId: "ykboewqeoxnne8fgrnui",
-        cuisines: ["Indian", "Chinese", "Tandoor", "Thalis", "Fast Food"],
+        cuisines: ["Indian", "chinese", "Tandoor", "Thalis"],
         tags: [],
         costForTwo: 20000,
         costForTwoString: "₹200 FOR TWO",
